@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jenrich Bargo — Personal Site</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#home" class="logo">J<span>Bargo</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+      <a class="cta" href="#contact">Contact Me</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-heading">Hi, I'm <strong>Jenrich Bargo</strong>.</h1>
+          <p class="lead">A<strong> Computer Science College Student</strong>. I love Graphic Arts and enjoy learning new front-end techniques. And also I like photography.</p>
+
+          <p class="hero-actions">
+            <a class="btn" href="#projects">My Projects</a>
+          </p>
+
+          <ul class="skill-list" aria-label="Primary skills">
+            <li>Graphic Arts Designer</li>
+            <li>Creating Responsive Website with HTML &amp; CSS using Vs Code</li>
+          </ul>
+        </div>
+
+        <div class="hero-media" aria-hidden="false">
+          <img src="img/main.jpg" alt="Portrait of Your Name" class="profile-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME (single-page site: the "resume page") -->
+    <section id="resume" class="resume container" aria-labelledby="resume-heading">
+      <h2 id="resume-heading">Resume</h2>
+
+      <div class="resume-grid">
+        <div class="resume-col">
+          <h3>Education</h3>
+          <ul>
+            <li>
+              <strong>DEBESMSCAT</strong><br>
+              B.S. in Computer Science — 3rd Year-Ongoing
+            </li>
+            <li>
+              <strong>CAAMHS</strong><br>
+              Cleofe A. Arce Memorial High School&mdash; GAS(2022-2023)
+            </li>
+            <li>
+              <strong>BES</strong><br>
+              Buri Elementary School&mdash; (2016-2017)
+            </li>
+          </ul>
+
+          <h3>My Skills</h3>
+          <ul class="skills">
+            <li>Graphics Designer</li>
+            <li>Creating HTML & CSS using Vs Code</li>
+            <li>Responsive Layouts</li>
+            <li>Basic programs using python, DevC++, and SQL</li>
+          </ul>
+        </div>
+
+        <div class="resume-col">
+          <h3>Experience</h3>
+          <article class="job">
+            <h4>Top 4- Graphics Design <span class="muted">— CS Elective 1</span></h4>
+            <p class="muted">Using IbisPaint & Canva</p>
+            <ul>
+              <li>One Color Shade Challenge</li>
+              <li>Typography Challenge</li>
+              <li>The Art of Madness</li>
+              <li>Free Style</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h4>Participating Quiz-Bee during TechFusion Day</h4>
+            <p class="muted">April 2024</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects container" aria-labelledby="projects-heading">
+
+      <ul class="projects-grid">
+        <li class="project-card">
+          <article>
+            <img src="img/Project1.png" alt="Screenshot of Project One">
+            <h3>Project 1</h3>
+            <p><strong>Boarding House Reservation System</strong> using python language is the first project that we developed with my Co-developer.
+               This the our final project for the Second Semester when i was first year college.</p>
+          </article>
+        </li>
+
+        <li class="project-card">
+          <article>
+            <img src="img/Project2.png" alt="Screenshot of Project Two">
+            <h3>Project 2</h3>
+            <p><strong>Voting Management System</strong> is my second project that I and my Co-developer developed using MS Access. It is a Database Management System.
+              It also our final project for the First Semester during our Second year journey.
+            </p>
+          </article>
+        </li>
+
+        <li class="project-card">
+          <article>
+            <img src="img/Project3.png" alt="Screenshot of Project Three">
+            <h3>Project 3</h3>
+            <p><strong>Mandaon Explore Zone Website</strong>. This is our final project for the Second Semester last academic year 2024-2025.
+            This project showcase the beautiful spot located around Municipality of Mandaon.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="about container" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>I enjoy learning new front-end techniques, experimenting HTML with CSS layouts, and building small projects like Website to explore my ideas.
+         Outside of coding I like painting and drawing, street photography, and creating flower and chocolate.</p>
+
+      <h3>Interests</h3>
+      <ul class="interests">
+        <li>UI/UX</li>
+        <li>Photography</li>
+        <li>Travel</li>
+        <li>Open source</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <p>Want to work together or have a question? Reach out!</p>
+
+      <address class="contact-methods">
+        <div class="social-links">
+          <a href="mailto:jenrichbargo6@gmail.com" aria-label="Email">
+            <i class="bx bx-envelope"></i>
+          </a>
+          <a href="tel:+639517202984" aria-label="Phone">
+            <i class="bx bx-phone"></i>
+          </a>
+          <a href="https://www.instagram.com/itzur_jeen" target="_blank" aria-label="Instagram">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://facebook.com/jenrichbernaldo.bargo.1" target="_blank" aria-label="Facebook">
+            <i class="bx bxl-facebook"></i>
+          </a>
+        </div>
+      </address>
+
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="copyright">
+      <p>&#169; JenBargo @ All Right Reserved.</p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
